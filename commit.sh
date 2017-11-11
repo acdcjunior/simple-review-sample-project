@@ -18,4 +18,5 @@ else
 fi
 
 git add -A
-GIT_COMMITTER_NAME="$AUNAME" GIT_COMMITTER_EMAIL="$AUEMAIL" git commit --author="$AUNAME <$AUEMAIL>" -m $2
+MSG="${@:2}"
+GIT_COMMITTER_NAME="$AUNAME" GIT_COMMITTER_EMAIL="$AUEMAIL" git commit --author="$AUNAME <$AUEMAIL>" -m "$MSG"
