@@ -12,6 +12,7 @@ public class HelloWorld {
         System.out.println("Eve");
         System.out.println("Alice mentioning @simplereview__eve");
         System.out.println("Alice mentioning @simplereview__bob");
+        System.out.println("Alice mentioning @simplereview__alice");
     }
 
 }
