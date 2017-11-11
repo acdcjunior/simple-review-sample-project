@@ -17,4 +17,5 @@ else
     exit 1
 fi
 
+git add -A
 GIT_COMMITTER_NAME="$AUNAME" GIT_COMMITTER_EMAIL="$AUEMAIL" git commit --author="$AUNAME <$AUEMAIL>" -m $2
